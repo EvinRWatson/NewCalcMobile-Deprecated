@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IHm9l1ayZ9lIY4FkRk7lmmumscDYQQF0kNTiAwFAnUP1cyuwkMs8kxqASkbbaeZ0sW+tOxGq0/y+xNZuW/hGXA==",
+  "success": true,
+  "projectFilePath": "D:\\NewCalcMobile\\NewCalcMobile\\NewCalcMobile\\NewCalcMobile.iOS\\NewCalcMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EvinW\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\EvinW\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\EvinW\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": []
+}

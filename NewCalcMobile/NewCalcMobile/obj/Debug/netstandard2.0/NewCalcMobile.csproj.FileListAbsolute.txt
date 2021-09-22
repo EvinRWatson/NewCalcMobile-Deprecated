@@ -1,0 +1,15 @@
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\bin\Debug\netstandard2.0\NewCalcMobile.deps.json
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\bin\Debug\netstandard2.0\NewCalcMobile.dll
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\bin\Debug\netstandard2.0\ref\NewCalcMobile.dll
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\bin\Debug\netstandard2.0\NewCalcMobile.pdb
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.AssemblyInfoInputs.cache
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.AssemblyInfo.cs
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.csproj.CoreCompileInputs.cache
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.dll
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\ref\NewCalcMobile.dll
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.pdb
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\TotalsPage.xaml.g.cs
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.csproj.AssemblyReference.cache

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewCalcMobile.TotalsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Totals:" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" FontSize="36"/>
+            </Frame>
+            
+            <Label Text="Number of Elements:" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="Total NEW:" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="With Cover: ft" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="Without Cover: ft" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="Overpressure: ft" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="Light Frag: ft" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label Text="Heavy Frag: ft" FontSize="Title" Padding="30,10,30,10"/>
+
+            <Button Text="Start Over" Clicked="StartApp"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
