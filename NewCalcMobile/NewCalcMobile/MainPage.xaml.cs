@@ -12,14 +12,17 @@ namespace NewCalcMobile
         #region Page Initialization
         public MainPage()
         {
-            var ShowNEW = new Label { Text = $"Current NEW: {App.TotalNEW}" };
-            var ShowNumElements = new Label { Text = $"Elements: #{App.numElements}" };
-            BindingContext = this;
             InitializeComponent();
+            WeightEntry.Text = App.Weight.ToString();
+            QuantityEntry.Text = App.Quantity.ToString();
+            REFEntry.Text = App.REF.ToString();
+            CurrentTotalNewLabel.Text = $"Current Total NEW: {App.TotalNEW}";
+            ElementNumLabel.Text = $"Element #{App.numElements}";
         }
 
         private async void ShowTotals(object sender, EventArgs e)
         {
+            setTotalNEW();
             await Navigation.PushAsync(new TotalsPage(), true);
         }
         #endregion
@@ -69,20 +72,23 @@ namespace NewCalcMobile
 
         static void AddElement(object sender, EventArgs e)
         {
-            App.TotalNEW += CalculateNEW();
+            setTotalNEW();
             App.numElements++;
             ResetInputVariables();
         }
 
         static double CalculateNEW()
         {
-            App.CurrentNEW = (App.Weight * App.Quantity * App.REF);
+            App.CurrentNEW = App.Weight * App.Quantity * App.REF;
             if (App.isGrain == true)
                 App.CurrentNEW /= 7000;
             return App.CurrentNEW;
         }
 
-
+        static void setTotalNEW()
+        {
+            App.TotalNEW += CalculateNEW();
+        }
         #endregion
     }
 }

@@ -20,16 +20,25 @@ namespace NewCalcMobile
         public TotalsPage()
         {
             InitializeComponent();
+            SetTotals();
+
+            NumElementLabel.Text = $"Element # {App.numElements}";
+            TotalNEWLabel.Text = $"Total NEW: {App.TotalNEW}";
+            wCoverLabel.Text = $"With Cover: {StandoffWithCover}ft";
+            woCoverLabel.Text = $"Without Cover: {StandoffWithoutCover}ft";
+            OverPressureLabel.Text = $"Overpressure: {StandoffOverpressure}ft";
+            LightFragLabel.Text = $"Light Frag: {StandoffLightFrag}ft";
+            HeavyFragLabel.Text = $"Heavy Frag: {StandoffHeavyFrag}ft";
         }
 
         public void SetTotals()
         {
             CbrtTotalNEW = Math.Sqrt(Math.Sqrt(App.TotalNEW));
-            StandoffWithCover = ((int)(CbrtTotalNEW * 10) + 1);
-            StandoffWithoutCover = ((int)(CbrtTotalNEW * 15) + 1);
-            StandoffOverpressure = ((int)(CbrtTotalNEW * 20) + 1);
-            StandoffLightFrag = ((int)(CbrtTotalNEW * 300) + 1);
-            StandoffHeavyFrag = ((int)(CbrtTotalNEW * 500) + 1);
+            StandoffWithCover = (int)(CbrtTotalNEW * 10) + 1;
+            StandoffWithoutCover = (int)(CbrtTotalNEW * 15) + 1;
+            StandoffOverpressure = (int)(CbrtTotalNEW * 20) + 1;
+            StandoffLightFrag = (int)(CbrtTotalNEW * 300) + 1;
+            StandoffHeavyFrag = (int)(CbrtTotalNEW * 500) + 1;
         }
 
         async void StartApp(object sender, EventArgs e)

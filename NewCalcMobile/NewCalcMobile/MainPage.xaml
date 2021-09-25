@@ -4,27 +4,27 @@
              x:Class="NewCalcMobile.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
-            <Label Text="NewCalcMobile" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" FontSize="36"/>
-        </Frame> 
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="NewCalcMobile" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" FontSize="36"/>
+            </Frame> 
         
-            <Label Text="Weight (Lbs) or Grain Density: " Padding="30,10,30,10"/>
-            <Entry Keyboard="Numeric" Completed="SetWeight"/>
+            <Label Text="Weight (Lbs) or Grain Density: "/>
+            <Entry x:Name="WeightEntry" Keyboard="Numeric" Completed="SetWeight"/>
 
-            <Label Text="Quantity" Padding="30,10,30,10"/>
-            <Entry Keyboard="Numeric" Completed="SetQuantity"/>
+            <Label Text="Quantity"/>
+            <Entry x:Name="QuantityEntry" Keyboard="Numeric" Completed="SetQuantity"/>
 
-            <Label Text="REF" Padding="30,10,30,10"/>
-            <Entry Keyboard="Numeric" Completed="SetREF"/>
+            <Label Text="REF"/>
+            <Entry x:Name="REFEntry" Keyboard="Numeric" Completed="SetREF"/>
 
-            <Label Text="Grain?" Padding="30,10,30,10"/>
+            <Label Text="Grain?"/>
             <Switch IsToggled="False" Toggled="SwitchSetIsGrain"/>
 
             <Button Text="Add Element" Clicked="AddElement"/>
 
-            <Label/>
+            <Label x:Name="CurrentTotalNewLabel"/>
 
-            <Label x:Name="ShowNumElements" Padding="30,10,30,10"/>
+            <Label x:Name="ElementNumLabel"/>
 
             <Button Text="Finish and Calculate Standoff" Clicked="ShowTotals"/>
         

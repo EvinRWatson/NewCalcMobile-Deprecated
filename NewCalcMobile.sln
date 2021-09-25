@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCalcMobile.Android", "Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCalcMobile.iOS", "NewCalcMobile\NewCalcMobile.iOS\NewCalcMobile.iOS.csproj", "{8A5EA6AA-D6D9-4928-A146-4671A3A71537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCalcMobile", "NewCalcMobile\NewCalcMobile\NewCalcMobile.csproj", "{BC791227-D5FA-4586-A59B-44F1AA831AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewCalcMobile", "NewCalcMobile\NewCalcMobile\NewCalcMobile.csproj", "{BC791227-D5FA-4586-A59B-44F1AA831AF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
