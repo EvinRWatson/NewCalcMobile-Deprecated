@@ -27,3 +27,4 @@ D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard
 D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.dll
 D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\ref\NewCalcMobile.dll
 D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.pdb
+D:\NewCalcMobile\NewCalcMobile\NewCalcMobile\NewCalcMobile\obj\Debug\netstandard2.0\NewCalcMobile.csproj.AssemblyReference.cache

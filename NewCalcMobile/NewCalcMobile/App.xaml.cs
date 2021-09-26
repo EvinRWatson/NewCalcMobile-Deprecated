@@ -21,7 +21,7 @@ namespace NewCalcMobile
             MainPage = new NavigationPage(new MainPage());
         }
 
-        public void InitializeGlobals()
+        public static void InitializeGlobals()
         {
             Weight = 0;
             Quantity = 0;

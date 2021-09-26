@@ -70,11 +70,12 @@ namespace NewCalcMobile
             App.TotalNEW = 0;
         }
 
-        static void AddElement(object sender, EventArgs e)
+        async void AddElement(object sender, EventArgs e)
         {
             setTotalNEW();
             App.numElements++;
             ResetInputVariables();
+            await Navigation.PushAsync(new MainPage(), true);
         }
 
         static double CalculateNEW()
