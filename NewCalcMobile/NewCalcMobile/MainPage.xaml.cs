@@ -28,22 +28,31 @@ namespace NewCalcMobile
         #endregion
 
         #region Set Global Variables
-        void SetWeight(object sender, EventArgs e)
+        void SetWeight(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             string senderWeight = ((Entry)sender).Text;
-            App.Weight = double.Parse(senderWeight);
+            if (senderWeight == null || senderWeight == "")
+                senderWeight = 0.ToString();
+            else
+                App.Weight = double.Parse(senderWeight);
         }
 
-        void SetQuantity(object sender, EventArgs e)
-        {
+        void SetQuantity(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        { 
             string senderQuantity = ((Entry)sender).Text;
-            App.Quantity = double.Parse(senderQuantity);
+            if (senderQuantity == null || senderQuantity == "")
+                senderQuantity = 0.ToString();
+            else
+                App.Quantity = double.Parse(senderQuantity);
         }
 
-        void SetREF(object sender, EventArgs e)
+        void SetREF(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             string senderREF = ((Entry)sender).Text;
-            App.REF = double.Parse(senderREF);
+            if (senderREF == null || senderREF == "")
+                senderREF = 0.ToString();
+            else
+                App.REF = double.Parse(senderREF);
         }
 
         void SwitchSetIsGrain(object sender, ToggledEventArgs e)
@@ -63,6 +72,7 @@ namespace NewCalcMobile
             App.CurrentNEW = 0;
             App.isGrain = false;
         }
+
 
         static void ResetTotalVariables()
         {

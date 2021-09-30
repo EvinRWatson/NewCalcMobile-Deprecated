@@ -29,7 +29,7 @@ namespace NewCalcMobile
             CurrentNEW = 0;
             TotalNEW = 0;
             isGrain = false;
-            numElements = 0;
+            numElements = 1;
         }
 
         protected override void OnStart()
